@@ -1,5 +1,10 @@
+ntserver fork
+==============
+
+ntserver is a fork of the XLibre Xserver implementation, forked and edited by Andrew Kay (novaTopFlex). In light of the modern issues of encroaching Wayland implementations, as well as continued issues with the elimination of code commits to the code base, particularly in the years following 2010, XLibre Xserver has become necessary at the beginning of June, 2025.
+
 XLibre Xserver
-===============
+---------------
 
 Xlibre is a fork of the [Xorg Xserver](https://gitlab.freedesktop.org/xorg/xserver)
 with lots of code cleanups and enhanced functionality.
