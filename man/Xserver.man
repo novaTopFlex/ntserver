@@ -55,7 +55,7 @@ urged to use a display manager, or build other interfaces for novice users.
 The X server may also be started directly by the user, though this
 method is usually reserved for testing and is not recommended for
 normal operation.  On some platforms, the user must have special
-permission to start the X server, often because access to certain
+permissions (usually sudo) to start the X server, often because access to certain
 devices (e.g.\& \fI/dev/mouse\fP) is restricted.  Where applicable, the
 X server notifies systemd when it is ready to process requests.
 .PP
@@ -125,11 +125,11 @@ This is the default unless \-retro or \-wr is specified.
 disables backing store support on all screens.
 .TP 8
 .B +byteswappedclients
-Allow connections from clients with an endianess different to that of the
+Allow connections from clients with an endian-ness different to that of the
 server.
 .TP 8
 .B \-byteswappedclients
-Prohibit connections from clients with an endianess different to that of the
+Prohibit connections from clients with an endian-ness different to that of the
 server.
 This is the default unless \fB+byteswappedclients\fP is specified.
 .TP 8
