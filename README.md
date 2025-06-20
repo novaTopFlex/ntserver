@@ -30,7 +30,7 @@ heels, whether you're furry or fairy, Conan or McKay, comic character, a
 small furry creature from Alpha Centauri, or just a boring average person.
 Anybody who's interested in bringing X forward is welcome.
 
-Together we'll make X great again!
+Together we'll make X11/Xorg great again!
 
 Upgrade notice
 --------------
@@ -62,7 +62,7 @@ Upgrade notice
 Driver repositories
 -------------------
 
-Since Redhat had deleted and banned all X11Libre repositories from freedesktop.org,
+Since Red Hat had deleted and banned all X11Libre repositories from freedesktop.org,
 the driver repositories are now moved to GitHub:
 
 | Driver | Git repository |
